@@ -12,13 +12,11 @@ function calculateTax(amount) {
     const tax = amount * taxRate;
     return tax;
 }
-console.log(calculateTax(amount));
 
 // Function to convert a string to uppercase
 function convertToUpperCase(text) {
     return text.toUpperCase();
 }
-console.log(convertToUpperCase(text));
 
 // Function to find the maximum of two numbers
 function findMaximum(num1, num2) {
@@ -28,14 +26,12 @@ function findMaximum(num1, num2) {
         return num2;
     }
 }
-console.log(findMaximum(num1, num2));
 
 // Function to check if a string is a palindrome
 function isPalindrome(word) {
     const reversedWord = word.split('').reverse().join('');
     return word === reversedWord;
 }
-console.log(isPalindrome(word));
 
 // Function to calculate the discounted price
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
@@ -43,4 +39,3 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
     const discountedPrice = originalPrice - discountAmount;
     return discountedPrice;
 }
-console.log(calculateDiscountedPrice(originalPrice, discountPercentage));
