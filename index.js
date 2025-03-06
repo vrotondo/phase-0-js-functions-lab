@@ -37,3 +37,10 @@ function isPalindrome(word) {
 }
 console.log(isPalindrome(word));
 
+// Function to calculate the discounted price
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+    const discountAmount = (originalPrice * discountPercentage) / 100;
+    const discountedPrice = originalPrice - discountAmount;
+    return discountedPrice;
+}
+console.log(calculateDiscountedPrice(originalPrice, discountPercentage));
