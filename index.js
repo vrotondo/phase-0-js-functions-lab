@@ -14,3 +14,7 @@ function calculateTax(amount) {
 }
 console.log(calculateTax(amount));
 
+// Function to convert a string to uppercase
+function convertToUpperCase(text) {
+    return text.toUpperCase();
+}
