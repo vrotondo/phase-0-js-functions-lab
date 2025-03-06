@@ -18,3 +18,22 @@ console.log(calculateTax(amount));
 function convertToUpperCase(text) {
     return text.toUpperCase();
 }
+console.log(convertToUpperCase(text));
+
+// Function to find the maximum of two numbers
+function findMaximum(num1, num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+console.log(findMaximum(num1, num2));
+
+// Function to check if a string is a palindrome
+function isPalindrome(word) {
+    const reversedWord = word.split('').reverse().join('');
+    return word === reversedWord;
+}
+console.log(isPalindrome(word));
+
